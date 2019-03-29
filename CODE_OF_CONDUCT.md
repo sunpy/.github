@@ -1,8 +1,4 @@
-<!-- NOTE: The authorative version of this document is the CODE_OF_CONDUCT.rst
-file in the root of the sunpy/sunpy repo. --!>
-
-Code of Conduct
-===============
+# Code of Conduct
 
 The SunPy community is made up of members from around the globe with a
 diverse set of skills, personalities, and experiences. It is through
@@ -14,8 +10,7 @@ community.
 
 A member of SunPy is:
 
-Open
-----
+## Open
 
 Members of the community are open to collaboration, whether on patches,
 reporting issues, asking for help or otherwise. We welcome those
@@ -28,8 +23,7 @@ fostering an environment where anyone can participate and everyone can
 make a difference, ensuring that all participants are heard and feel
 confident that they can freely express their opinions.
 
-Considerate
------------
+## Considerate
 
 Members of the community are considerate of their peers \-- other
 developers, users, etc. We are thoughtful when addressing the efforts of
@@ -43,8 +37,7 @@ acknowledgement/citation of original authors at all times. As authors,
 we pledge to be explicit about how we want our own work to be cited or
 acknowledged.
 
-Respectful
-----------
+## Respectful
 
 Members of the community are respectful. We are respectful of others,
 their positions, their skills, their commitments, and their efforts. We
@@ -78,8 +71,7 @@ Parts of this code of conduct have been adapted from the
 Software Fundation](https://www.python.org/psf/codeofconduct/) codes of
 conduct.
 
-License
--------
+### License
 
 The SunPy Community Code of Conduct is licensed under a Creative Commons
 Attribution 4.0 International License. We encourage other communities
