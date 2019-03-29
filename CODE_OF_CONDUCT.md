@@ -71,6 +71,8 @@ Parts of this code of conduct have been adapted from the
 Software Fundation](https://www.python.org/psf/codeofconduct/) codes of
 conduct.
 
+---
+
 ### License
 
 The SunPy Community Code of Conduct is licensed under a Creative Commons
