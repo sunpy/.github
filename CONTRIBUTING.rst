@@ -18,7 +18,7 @@ Although this document mainly focuses on how to make contributions to SunPy's co
 
 If you have any questions, comments or just want to say hello, we have online chat on `Matrix`_ which requires no registration or a `Google Group`_ which you message.
 
-.. _Matrix: https://riot.im/app/#/room/#sunpy-general:matrix.org
+.. _Matrix: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
 .. _Google Group: https://groups.google.com/forum/#!forum/sunpy
 
 How to Contribute to SunPy
@@ -78,17 +78,29 @@ Generally the more people that can look over a pull request the better it will t
 Code
 ----
 
-If you would prefer to code instead, we have several repositories you can investigate.
+If you would prefer to code instead, the best way to start is to work on an exisiting and known `issues`_.
+We have several repositories you can investigate.
 The main one is the SunPy repository with where all the known `issues`_ with SunPy are detailed.
-Each issue should have a series of labels that provide information about nature of the issue.
+Each issue should have a series of labels that provide information about the nature of the issue.
+If you find an issue you'd like to work on, please make sure to add a comment to let people know that you are working on it! This will make it less likely that effort is duplicated.
 
-If you are unsure where to start we suggest the `Package Novice label`_.
+.. note::
+
+    sunpy is Free and open-source software (FOSS), under the BSD-2 license. By contributing you are stating that you have the right to and agree to have your work distributed under the terms of this license.
+
+    This applies to everyone who wants to contribute during work time no matter who their employer is.
+    You should start by checking if there is a Open Source Software Policy (e.g., `Standford's policy <https://otl.stanford.edu/open-source-stanford>`__) for your work place.
+    If not, `OSS-Watch <http://oss-watch.ac.uk/resources/contributing>`__ summaries what you will need to check and who to ask, however this resource is aimed at a UK readers.
+    As an example, `Standford's guidance <https://otl.stanford.edu/sites/g/files/sbiybj10286/f/otlcopyrightguide.pdf>`__ allows someone to contribute and open source their code.
+    If you are unsure if your university or institution allows you to contribute under the BSD-2 license, you should contact the relevant department or administrator that deals with copyright at your institution.
+
+If you are unsure where to start we suggest the `Good First Issue label`_.
 These are issues that have been deemed a good way to be eased into SunPy and are achievable with little understanding of the SunPy codebase.
 Please be aware that this does not mean the issue is "easy", just that you do not need to be aware of the underlying structure of SunPy.
 
 We also tag issues for specific events such as  `Hacktoberfest`_ under the `Hacktoberfest label`_.
 The scope of the issues should be appropriate for that specific event.
-We do particpate in several other events but right now we do not have decidated labels.
+We do particpate in several other events but right now we do not have dedicated labels.
 So please use the above labels for starting issues!
 
 In addition, we have several other repositories that have open issues and you might find these more interesting than the main repository.
@@ -108,18 +120,23 @@ CSS/HTML:
 * `sunpy.org <https://github.com/sunpy/sunpy.org>`_
 
 .. _issues: https://github.com/sunpy/sunpy/issues
-.. _Package Novice label: https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22Package+Novice%22
+.. _Good First Issue label: https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22
 .. _Hacktoberfest: https://hacktoberfest.digitalocean.com/
 .. _Hacktoberfest label: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest
+
+If you already have code that you've developed or already have your own idea of code you'd like to work on please first have a look at the issue list to see if any existing issues are related to your idea.
+If you find nothing then create your own issue to stimulate the addition of your code and make sure to let people know about it chat room or by email.
+Creating an issue creates a permanent record.
+It may be possible your idea may be outside of the scope of the repository you are trying to contribute to and the issue comments are a great place to have that discussion where potential future contributors can also see.
 
 Setting up a development environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The instructions in this following section are based upon three resources:
 
-* `Astropy Dev Workflow <http://docs.astropy.org/en/latest/development/workflow/development_workflow.html>`_
-* `Astropy Dev environment <http://docs.astropy.org/en/latest/development/workflow/get_devel_version.html#get-devel>`_
-* `Astropy Pull Request Example <http://docs.astropy.org/en/latest/development/workflow/git_edit_workflow_examples.html#astropy-fix-example>`_
+* `Astropy Dev Workflow <https://docs.astropy.org/en/latest/development/workflow/development_workflow.html>`_
+* `Astropy Dev environment <https://docs.astropy.org/en/latest/development/workflow/get_devel_version.html#get-devel>`_
+* `Astropy Pull Request Example <https://docs.astropy.org/en/latest/development/workflow/git_edit_workflow_examples.html#astropy-fix-example>`_
 
 **We strongly recommend that you read these links.**
 These links are more in-depth than this guide but you will need to replace ``astropy`` with ``sunpy``.
@@ -134,26 +151,27 @@ Next we will want to setup the conda environment and we will need to add the `co
 
     $ conda config --add channels conda-forge
     $ conda create -n sunpy-dev sunpy
-    $ source activate sunpy-dev
+    $ conda activate sunpy-dev
 
 This will create a new conda environment called "sunpy-dev" and install the latest version of SunPy from the conda-forge channel.
 The next step is remove the conda version of SunPy and install the development version of SunPy.
 This will require that `git`_ be installed.
-
-If you have a `GitHub`_ account, we suggest that you `fork`_ the `SunPy repository`_ (the fork button is to the top right) and **use that url for the clone step** below.
-This will make submitting changes easier in the long term for you:
 
 .. warning::
 
     Do not clone the sunpy repository into ``$HOME/sunpy``. Depending on the operating system this location is used to store downloaded data files.
     This will cause conflicts later on, so the last argument (``sunpy-git``) on the ``git clone`` line will become the local folder name of the cloned repository.
 
+.. note::
+    If you have a `GitHub`_ account, we suggest that you `fork`_ the `SunPy repository`_ (the fork button is to the top right) and **use that url for the clone step** below.
+    This will make submitting changes easier in the long term for you:
+
 .. code:: bash
 
     $ conda remove sunpy
     $ git clone https://github.com/sunpy/sunpy.git sunpy-git
     $ cd sunpy-git
-    $ pip install -e .[all, dev]
+    $ pip install -e .[all,dev]
 
 Now you have the latest version of SunPy installed and are ready to work on it using your favorite editor!
 Ideally, when you start making changes you want to create a git branch:
@@ -173,32 +191,7 @@ If you get stuck or want help, just `ask here`_!
 .. _GitHub: https://github.com/
 .. _fork: https://guides.github.com/activities/forking/
 .. _SunPy repository: https://github.com/sunpy/sunpy
-.. _ask here: https://riot.im/app/#/room/#sunpy-general:matrix.org
-
-Astropy helpers
-^^^^^^^^^^^^^^^
-
-.. warning::
-
-    This is a common issue, so please be aware of this.
-
-Within SunPy is a folder called `astropy_helpers`_ and this is a git submodule.
-It is very common issue that this not setup correctly and gets added to your commits.
-
-So we recommend that you always run this at the start:
-
-.. code:: bash
-
-    $ git submodule update --init
-
-This should resolve any differences in the `astropy_helpers`_ folder on your machine.
-If you use::
-
-    $ git status
-
-you should hopefully see no changes for the ``astropy_helpers`` folder.
-
-.. _astropy_helpers: https://github.com/astropy/astropy-helpers
+.. _ask here: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
 
 Checking the code you have written
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -214,13 +207,12 @@ You will need to check two things:
    We follow the `PEP8`_ style for all Python code and depending on your setup, you can use a `linter program <https://realpython.com/python-code-quality/#how-to-improve-python-code-quality>`_ to check your code.
    For documentation, we follow the `numpydoc style <https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard>`_.
 
-We provide more more detail about our :ref: `test suite and how to write tests <testing>`, and how to :ref: `create and style documentation <docs_guidelines>`.
+We provide more more detail about our :ref:`test suite and how to write tests <testing>`, and how to :ref:`create and style documentation <docs_guidelines>`.
 
 .. _pytest: https://docs.pytest.org/en/latest/
 
 Send it back to us
 ^^^^^^^^^^^^^^^^^^
-
 Once you have some changes you would like to submit, you will need to commit the changes.
 This is a three stage process:
 
@@ -243,10 +235,10 @@ Please fill this in and title the pull request.
 Now the final step is to press the green "Create pull request" button.
 
 As soon as you do this, you will be greeted by a message from the "sunpy bot" as well as several continuous integration checks.
-These are explained on our :ref: `Pull Request Review <pr_review>` page.
+These are explained on our :ref:`Pull Request Review <pr_review>` page.
 But what is important to know is that these run a series of tests to make sure that the changes do not cause any new errors.
 We strongly recommend that any code changes you have had, follow the `PEP8`_ style and that you have ran the code locally to make sure any changes do not break any existing code.
-We provide an overview on how to run the test suite :ref: `here <testing>`.
+We provide an overview on how to run the test suite :ref:`here <testing>`.
 Now we (the SunPy community) can review the code and offer suggestions and once we are happy, we can merge in the pull request.
 
 If you do not have time to finish what you started on or ran out of time during a sprint and do not want to submit a pull request, you can create a git patch instead:
@@ -266,3 +258,12 @@ Just remember, if you have any problems get in touch!
 .. _PEP8: https://realpython.com/python-pep8/
 .. _Google Group: https://groups.google.com/forum/#!forum/sunpy
 .. _a SunPy contributor: stuart@mumford.me.uk
+
+Summer of Code(s)
+^^^^^^^^^^^^^^^^^
+
+If you are interested in a "Summer of Code" project with sunpy, we have information on our `wiki`_ which has guidelines, advice, application templates and more!
+Our projects are located on our umbrella's organization website, `OpenAstronomy`_.
+
+.. _wiki: https://github.com/sunpy/sunpy/wiki#summer-of-codes
+.. _OpenAstronomy: https://openastronomy.org/gsoc/
