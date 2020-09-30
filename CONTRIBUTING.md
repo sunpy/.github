@@ -48,7 +48,7 @@ can browse our [issue list][matrix channel] or our
 send a quick email to the dev list or stop by the [matrix channel] to
 let people know what you are planning to work on.
 
-  [matrix channel]:
+  [matrix channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
   [The general mailing list]: https://groups.google.com/forum/#!forum/sunpy
   [developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev
   [issue tracker]: https://github.com/sunpy/sunpy/issues
