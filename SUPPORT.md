@@ -48,7 +48,7 @@ account by typing in your full username, i.e. `@cadair:matrix.org`.
   [documentation]: https://docs.sunpy.org/en/stable/
   [code reference]: https://docs.sunpy.org/en/stable/code_ref/index.html
   [guides]: https://docs.sunpy.org/en/stable/generated/gallery/index.html
-  [The SunPy Blog]: blog.html
+  [The SunPy Blog]: https://sunpy.org/blog.html
   [SunPy Mailing List]: https://groups.google.com/forum/#!forum/sunpy
   [issue list]: https://github.com/sunpy/sunpy/issues
   [matrix channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
