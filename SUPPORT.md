@@ -41,4 +41,5 @@ You can login with any element.io account by typing in your full username, i.e. 
   [element.io channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
   [our calendar]: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
   [Code of Conduct]: https://docs.sunpy.org/en/latest/code_of_conduct.html
+  [general mailing list]: https://groups.google.com/g/sunpy
   [developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev
