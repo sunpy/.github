@@ -8,7 +8,7 @@ We know asking good questions takes effort, and we appreciate your time.
 Thank you.
 
 Please be aware that everyone has to follow our code of conduct:
-https://github.com/sunpy/sunpy/blob/master/CODE_OF_CONDUCT.rst
+https://sunpy.org/coc
 
 These comments are hidden when you submit this github issue.
 
