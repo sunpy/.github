@@ -1,4 +1,3 @@
-
 <!--
 We know that working on code and submitting pull requests takes effort, and we appreciate your time.
 Thank you.
@@ -18,6 +17,7 @@ https://docs.sunpy.org/en/latest/dev_guide/contents/pr_review_procedure.html#con
 -->
 
 ### Description
+
 <!--
 Provide a general description of what your pull request does.
 

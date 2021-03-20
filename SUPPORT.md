@@ -32,14 +32,14 @@ We have a [element.io channel] and you will find many sunpy users and developers
 Please stop by and say hello.
 You can login with any element.io account by typing in your full username, i.e. `@cadair:matrix.org`.
 
-  [sunpy documentation]: https://docs.sunpy.org/en/stable/
-  [code reference]: https://docs.sunpy.org/en/stable/code_ref/index.html
-  [examples]: https://docs.sunpy.org/en/stable/generated/gallery/index.html
-  [the sunpy blog]: https://sunpy.org/blog.html
-  [sunpy mailing list]: https://groups.google.com/forum/#!forum/sunpy
-  [issue list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22+sort%3Aupdated-desc
-  [element.io channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
-  [our calendar]: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
-  [Code of Conduct]: https://docs.sunpy.org/en/latest/code_of_conduct.html
-  [general mailing list]: https://groups.google.com/g/sunpy
-  [developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev
+[sunpy documentation]: https://docs.sunpy.org/en/stable/
+[code reference]: https://docs.sunpy.org/en/stable/code_ref/index.html
+[examples]: https://docs.sunpy.org/en/stable/generated/gallery/index.html
+[the sunpy blog]: https://sunpy.org/blog.html
+[sunpy mailing list]: https://groups.google.com/forum/#!forum/sunpy
+[issue list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22+sort%3Aupdated-desc
+[element.io channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
+[our calendar]: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
+[code of conduct]: https://docs.sunpy.org/en/latest/code_of_conduct.html
+[general mailing list]: https://groups.google.com/g/sunpy
+[developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev

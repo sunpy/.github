@@ -18,11 +18,13 @@ If not please go ahead and open an issue!
 -->
 
 ### Description
+
 <!--
 Provide a general description of the bug.
 -->
 
 ### Expected vs Actual behavior
+
 <!--
 What did you expect to happen.
 
@@ -31,6 +33,7 @@ Was the output confusing or poorly described?
 -->
 
 ### Steps to Reproduce
+
 <!--
 Please include code that reproduces the issue whenever possible.
 The best reproductions are self-contained scripts with minimal dependencies.
@@ -41,10 +44,12 @@ Code goes here
 ```
 
 ### System Details
+
 <!--
 We need to know the the package version you are using.
 We provide a short function in sunpy (``sunpy.util.system_info()``) that will provide most of the below information.
 -->
+
 - SunPy Version:
 - Astropy Version:
 - Python Version:
