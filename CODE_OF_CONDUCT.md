@@ -1,3 +1,5 @@
+(coc)=
+
 # Code of Conduct
 
 The SunPy community is made up of members from around the globe with a diverse set of skills, personalities, and experiences.
