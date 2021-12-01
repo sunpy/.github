@@ -43,7 +43,7 @@ Please leave a comment on the issue on [GitHub] and stop by the [matrix channel]
 [issue tracker]: https://github.com/sunpy/sunpy/issues
 [issue list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Good+First+Issue%22
 [feature list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Feature+Request%22
-[newcomers guide]: https://docs.sunpy.org/en/latest/dev_guide/newcomers.html
+[newcomers guide]: https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html
 [developer guide]: https://docs.sunpy.org/en/latest/dev_guide/
 [git]: https://git-scm.com
 [github]: https://github.com/sunpy/sunpy/
