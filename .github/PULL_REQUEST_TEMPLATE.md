@@ -29,7 +29,7 @@ https://docs.sunpy.org/en/latest/dev_guide/contents/pr_review_procedure.html#con
 
 <!--
 Please include a summary of the changes and which issue will be addressed
- Please also include relevant motivation and context.
+Please also include relevant motivation and context.
 -->
 
 # Checklist
@@ -37,10 +37,10 @@ Please include a summary of the changes and which issue will be addressed
 <!-- Please check off the following -->
 
 - [ ] I have followed the guidelines in the [Contributing document](https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html)
-- [ ] My changes follow the coding style of this project
-- [ ] My changes build without any errors or warnings
-- [ ] My changes have been formatted and linted
-- [ ] My changes include any required corresponding changes to the documentation
-- [ ] My changes have been rebased and squashed to the minimal number (typically 1) of relevant commits
-- [ ] My changes have a descriptive commit message with a short title
-- [ ] I have added a `Fixes $XXX -` or `Closes #XXX -` comment to auto-close the issue that your PR addresses
+- [ ] Changes follow the coding style of this project
+- [ ] Changes have been formatted and linted
+- [ ] Changes build without any errors or warnings
+- [ ] Changes include any required corresponding changes to the documentation
+- [ ] Changes have been rebased and squashed to the minimal number (typically 1) of relevant commits
+- [ ] Changes have a descriptive commit message with a short title
+- [ ] I have added a `Fixes #XXXX -` or `Closes #XXXX -` comment to auto-close the issue that your PR addresses
