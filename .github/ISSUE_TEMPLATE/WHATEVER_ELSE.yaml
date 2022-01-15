@@ -13,7 +13,7 @@ body:
 
         Please have a search on our GitHub repository to see if a similar issue has already been posted.
         If a similar issue is closed, have a quick look to see if you are satisfied by the resolution.
-        If not please go ahead and open an issue!
+        If not please go ahead and open a new issue!
   - type: textarea
     id: description
     attributes:

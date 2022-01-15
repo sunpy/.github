@@ -12,7 +12,7 @@ body:
 
         Please have a search on our GitHub repository to see if a similar issue has already been posted.
         If a similar issue is closed, have a quick look to see if you are satisfied by the resolution.
-        If not please go ahead and open an issue!
+        If not please go ahead and open a new issue!
   - type: textarea
     id: description
     attributes:
@@ -61,7 +61,7 @@ body:
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
-      placeholder: Upload your screenshots here. You can paste them or click on "Attach files".
+      placeholder: Upload your screenshots here. You can click and drag them or click on "Attach files".
     validations:
       required: false
   - type: textarea
@@ -70,7 +70,7 @@ body:
       label: System Details
       description: |
         We need to know the the package version you are using.
-        We provide a short function in sunpy (``sunpy.util.system_info()``) that will provide you with this information.
+        Running ``import sunpy; sunpy.util.system_info()`` will print this information
       placeholder: |
         - sunpy Version:
         - astropy Version:
