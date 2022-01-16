@@ -38,8 +38,6 @@ body:
 
         sunpy.map.Map(...)
         etc
-    validations:
-      required: false
   - type: textarea
     id: behaviour
     attributes:
@@ -47,23 +45,17 @@ body:
       description: |
         A clear and concise description of what actually happened.
         If possible, please include the relevant log output.
-    validations:
-      required: false
   - type: textarea
     id: expected-behaviour
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
-    validations:
-      required: false
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
       placeholder: Upload your screenshots here. You can click and drag them or click on "Attach files".
-    validations:
-      required: false
   - type: textarea
     id: system-details
     attributes:
@@ -76,16 +68,15 @@ body:
         - astropy Version:
         - Python Version:
         - OS information:
-    validations:
-      required: false
   - type: dropdown
     id: install-method
+    description: How did you install the package?
     attributes:
       label: Installation method
       multiple: true
       options:
-        - Conda
-        - PyPi via pip
-        - Local build from a repository
-    validations:
-      required: false
+        - pip
+        - conda
+        - Linux package manager
+        - from source (.tar.gz)
+        - git checkout

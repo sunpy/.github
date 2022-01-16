@@ -1,45 +1,39 @@
-## Thank you for contributing to SunPy!
+# Thank you for contributing to SunPy
 
-### 🚨 IMPORTANT 🚨
+## 🚨 IMPORTANT 🚨
 
 We know that working on code and submitting pull requests takes effort, and we appreciate your time.
 Thank you.
 
-Please be aware that everyone has to follow our code of conduct:
-https://sunpy.org/coc
+[Please be aware that everyone has to follow our code of conduct](https://sunpy.org/coc)
 
-Furthermore, you might need to check with your work place if you are allowed to contribute code:
-https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html
-
-We have several automatic features that run when a pull request is open.
-They can appear daunting but do not worry about them!
-Here is a brief explanation of them:
-https://docs.sunpy.org/en/latest/dev_guide/contents/pr_review_procedure.html#continuous-integration
+[Furthermore, you might need to check with your work place if you are allowed to contribute code](https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html)
 
 - Please create an issue _before_ creating a Pull Request
 - Please use the following Git commit message style
   - Use the future tense ("Adds feature" not "Added feature")
   - Limit the first line to 72 characters or less
 
+We have several automatic features that run when a pull request is open.
+They can appear daunting but do not worry about them!
+[This a brief explanation of them.](https://docs.sunpy.org/en/latest/dev_guide/contents/pr_review_procedure.html#continuous-integration)
+
 ## ↑👆 DELETE above _before_ submitting 👆↑
 
----
-
-# Description
+## PR Description
 
 <!--
 Please include a summary of the changes and which issue will be addressed
 Please also include relevant motivation and context.
 -->
 
-# Checklist
+## PR Checklist
 
-<!-- Please check off the following -->
-
+<!-- Please mark any checkboxes that do not apply to this PR as [N/A]. -->
 - [ ] I have followed the guidelines in the [Contributing document](https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html)
 - [ ] Changes follow the coding style of this project
 - [ ] Changes have been formatted and linted
-- [ ] Changes build without any errors or warnings
+- [ ] Changes pass pytest style unit tests (and `pytest` passes).
 - [ ] Changes include any required corresponding changes to the documentation
 - [ ] Changes have been rebased and squashed to the minimal number (typically 1) of relevant commits
 - [ ] Changes have a descriptive commit message with a short title

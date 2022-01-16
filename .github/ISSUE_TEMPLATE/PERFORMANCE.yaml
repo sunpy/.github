@@ -40,5 +40,8 @@ body:
 
         sunpy.map.Map(...)
         etc
-    validations:
-      required: false
+  - type: textarea
+    id: fix
+    attributes:
+      label: Proposed fix
+      description: Please describe how you think this could be improved.

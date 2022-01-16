@@ -20,7 +20,14 @@ body:
       label: Describe the feature
       description: |
         Provide a general description of the feature you would like.
-        If you prefer, you can also suggest a draft design or API.
-      placeholder: Enter your suggested feature request here.
+      placeholder: |
+        * I'm always frustrated when [...] because [...]
+        * I would like it if [...] happened when I [...] because [...]
+        * Here is a sample image of what I am asking for [...]
     validations:
       required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe a way to accomplish the goals of this feature request.
