@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest a way to improve this package
+labels: [Feature Request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We know opening issues takes effort, and we appreciate your time.
+        Thank you.
+
+        Please be aware that everyone has to follow our code of conduct:
+        https://sunpy.org/coc
+
+        Please have a search on our GitHub repository to see if a similar issue has already been posted.
+        If a similar issue is closed, have a quick look to see if you are satisfied by the resolution.
+        If not please go ahead and open a new issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: |
+        Provide a general description of the feature you would like.
+      placeholder: |
+        * I'm always frustrated when [...] because [...]
+        * I would like it if [...] happened when I [...] because [...]
+        * Here is a sample image of what I am asking for [...]
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe a way to accomplish the goals of this feature request.

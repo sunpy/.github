@@ -1,0 +1,23 @@
+name: Anything else
+description: If it does not fit under the above sections.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We know opening issues takes effort, and we appreciate your time.
+        Thank you.
+
+        Please be aware that everyone has to follow our code of conduct:
+        https://sunpy.org/coc
+
+        Please have a search on our GitHub repository to see if a similar issue has already been posted.
+        If a similar issue is closed, have a quick look to see if you are satisfied by the resolution.
+        If not please go ahead and open a new issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a general description of the issue or problem.
+      placeholder: Provide a general description of the issue or problem.
+    validations:
+      required: true

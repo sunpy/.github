@@ -1,0 +1,47 @@
+name: Performance Suggestions
+description: If you have found a slow aspect of this package and would like it improved.
+labels: [Performance]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We know opening issues takes effort, and we appreciate your time.
+        Thank you.
+
+        Please be aware that everyone has to follow our code of conduct:
+        https://sunpy.org/coc
+
+        Please have a search on our GitHub repository to see if a similar issue has already been posted.
+        If a similar issue is closed, have a quick look to see if you are satisfied by the resolution.
+        If not please go ahead and open a new issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the performance issue
+      description: |
+        Provide a general description of what was slow.
+      placeholder: Provide a general description of what was slow.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: To Reproduce
+      description: |
+        Please include code that reproduces the issue whenever possible.
+        The best reproductions are self-contained scripts with minimal dependencies.
+      placeholder: |
+        import sunpy
+
+        sunpy.map.Map(...)
+        etc
+      value: |
+        import sunpy
+
+        sunpy.map.Map(...)
+        etc
+  - type: textarea
+    id: fix
+    attributes:
+      label: Proposed fix
+      description: Please describe how you think this could be improved.
