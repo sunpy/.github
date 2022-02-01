@@ -4,7 +4,7 @@ labels: [Bug]
 body:
   - type: markdown
     attributes:
-      description: |
+      value: |
         We know opening issues takes effort, and we appreciate your time.
 
         Please be aware that everyone has to follow our code of conduct:
