@@ -1,10 +1,10 @@
 name: Bug Report
 description: Create a report describing unexpected or incorrect behavior in this package
-labels: ["Bug(?)"]
+labels: [Bug]
 body:
   - type: markdown
     attributes:
-      value: |
+      description: |
         We know opening issues takes effort, and we appreciate your time.
 
         Please be aware that everyone has to follow our code of conduct:
