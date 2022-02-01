@@ -70,8 +70,8 @@ body:
         - OS information:
   - type: dropdown
     id: install-method
-    description: How did you install the package?
     attributes:
+      description: How did you install the package?
       label: Installation method
       multiple: true
       options:
