@@ -17,7 +17,6 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Provide a general description of the issue or problem.
       placeholder: Provide a general description of the issue or problem.
     validations:
       required: true
