@@ -17,8 +17,10 @@ body:
     id: description
     attributes:
       label: Describe the bug
-      description: A clear and concise description of what the bug is.
-      placeholder: Enter your description here.
+      description: |
+        A clear and concise description of the bug.
+        Please include the relevant log output.
+      placeholder: Bug report here.
     validations:
       required: true
   - type: textarea
@@ -39,18 +41,6 @@ body:
         sunpy.map.Map(...)
         etc
   - type: textarea
-    id: behaviour
-    attributes:
-      label: What happened?
-      description: |
-        A clear and concise description of what actually happened.
-        If possible, please include the relevant log output.
-  - type: textarea
-    id: expected-behaviour
-    attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
@@ -64,9 +54,10 @@ body:
         We need to know the the package version you are using.
         Running ``import sunpy; sunpy.util.system_info()`` will print this information
       placeholder: |
-        - sunpy Version:
-        - astropy Version:
-        - Python Version:
+        - sunpy version:
+        - astropy version:
+        - relevant package versions:
+        - Python version:
         - OS information:
   - type: dropdown
     id: install-method
