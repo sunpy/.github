@@ -57,7 +57,7 @@ body:
       placeholder: |
         - sunpy version:
         - astropy version:
-        - **relevant package** version(s):
+        - relevant package version(s):
         - Python version:
         - OS information:
   - type: dropdown
