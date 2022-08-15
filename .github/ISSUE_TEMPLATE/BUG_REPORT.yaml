@@ -51,12 +51,13 @@ body:
     attributes:
       label: System Details
       description: |
-        We need to know the the package version you are using.
-        Running ``import sunpy; sunpy.util.system_info()`` will print this information
+        We need to know the the package version(s) you are using.
+        Running ``import sunpy; sunpy.util.system_info()`` will print this information.
+        However, it does not have every pacakge, please add those as needed.
       placeholder: |
         - sunpy version:
         - astropy version:
-        - relevant package versions:
+        - **relevant package** version(s):
         - Python version:
         - OS information:
   - type: dropdown
