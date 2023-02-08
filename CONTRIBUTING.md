@@ -37,7 +37,7 @@ If you are unfamiliar with this style of development, Astropy provide a sample [
 You can browse our [issue list] or our [feature list] to find something that you can tackle.
 Please leave a comment on the issue on [GitHub] and stop by the [matrix channel] to let people know what you are planning to work on.
 
-[matrix channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
+[matrix channel]: https://app.element.io/#/room/#sunpy:openastronomy.org
 [the general mailing list]: https://groups.google.com/forum/#!forum/sunpy
 [developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev
 [issue tracker]: https://github.com/sunpy/sunpy/issues

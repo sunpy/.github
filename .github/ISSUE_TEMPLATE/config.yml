@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Sunpy Community Chat
-    url: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
+  - name: SunPy Community Chat
+    url: https://app.element.io/#/room/#sunpy:openastronomy.org
     about: If you want to talk to developers or users.
   - name: Question/Support/Other
     url: https://community.openastronomy.org/c/ask-questions/15

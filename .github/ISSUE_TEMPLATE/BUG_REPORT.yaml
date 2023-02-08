@@ -53,7 +53,7 @@ body:
       description: |
         We need to know the the package version(s) you are using.
         Running ``import sunpy; sunpy.util.system_info()`` will print this information.
-        However, it does not have every pacakge, please add those as needed.
+        However, it does not have every package, please add those as needed.
       placeholder: |
         - sunpy version:
         - astropy version:

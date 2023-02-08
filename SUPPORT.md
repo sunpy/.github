@@ -15,9 +15,8 @@ If you have a quick or shorter question, we also have a [element.io channel] for
 Please do stop by and say hello!
 You can login with any element.io account by typing in your full username, e.g., `@cadair:matrix.org`.
 
-
 [sunpy documentation]: https://docs.sunpy.org/en/stable/
 [code reference]: https://docs.sunpy.org/en/stable/code_ref/index.html
 [examples]: https://docs.sunpy.org/en/stable/generated/gallery/index.html
 [OpenAstronomy discourse]: https://community.openastronomy.org/c/ask-questions/15
-[element.io channel]: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
+[element.io channel]: https://app.element.io/#/room/#sunpy:openastronomy.org
