@@ -47,6 +47,6 @@ Please leave a comment on the issue on [GitHub] and stop by the [matrix channel]
 [developer guide]: https://docs.sunpy.org/en/latest/dev_guide/
 [git]: https://git-scm.com
 [github]: https://github.com/sunpy/sunpy/
-[on github]: https://help.github.com/en/articles/signing-up-for-a-new-github-account
+[on github]: https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
 [workflow]: https://docs.astropy.org/en/stable/development/workflow/development_workflow.html#development-workflow
-[tutorials]: https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm
+[tutorials]: https://readwrite.com/understanding-github-a-journey-for-beginners-part-1/
