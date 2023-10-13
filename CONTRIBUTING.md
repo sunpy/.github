@@ -14,7 +14,7 @@ If you prefer email:
 
 - [The general mailing list] is a great place to start.
   Here we answer questions about sunpy or send out major announcements.
-- If you have technical issue about the code or want advice on how to help sunpy, the [developer mailing list] is another good place.
+- If you have technical issue about the code or want advice on how to help sunpy, the [matrix channel] is another good place.
   This is where you can find the nitty gritty nuts and bolts discussions about the SunPy codebase.
 
 Please note that these do not get a lot of traffic, so the matrix channel or [GitHub] might be better places to start.
@@ -23,7 +23,7 @@ Please note that these do not get a lot of traffic, so the matrix channel or [Gi
 
 If you run into unexpected behavior or run into a bug we urge you to please report it.
 All bugs are kept track of on our [issue tracker].
-You can add a bug report there or you can report it on [matrix channel] or an email to the [developer mailing list].
+You can add a bug report there or you can report it on [matrix channel] or an email to [the general mailing list].
 Ideally, we would like a short code example so we can reproduce the bug on our own machines.
 
 ## Provide Code
@@ -39,7 +39,6 @@ Please leave a comment on the issue on [GitHub] and stop by the [matrix channel]
 
 [matrix channel]: https://app.element.io/#/room/#sunpy:openastronomy.org
 [the general mailing list]: https://groups.google.com/forum/#!forum/sunpy
-[developer mailing list]: https://groups.google.com/forum/#!forum/sunpy-dev
 [issue tracker]: https://github.com/sunpy/sunpy/issues
 [issue list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Good+First+Issue%22
 [feature list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Feature+Request%22
