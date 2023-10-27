@@ -18,5 +18,5 @@ You can login with any element.io account by typing in your full username, e.g.,
 [sunpy documentation]: https://docs.sunpy.org/en/stable/
 [code reference]: https://docs.sunpy.org/en/stable/code_ref/index.html
 [examples]: https://docs.sunpy.org/en/stable/generated/gallery/index.html
-[OpenAstronomy discourse]: https://community.openastronomy.org/c/ask-questions/15
+[OpenAstronomy discourse]: https://community.openastronomy.org/c/sunpy/5
 [element.io channel]: https://app.element.io/#/room/#sunpy:openastronomy.org
