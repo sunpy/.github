@@ -1,51 +1,48 @@
-# Contribute
+# Contributing to the SunPy Project
 
 ## Provide Feedback
 
-We could always use more voices and opinions in the discussions about sunpy and its development from both users and developers.
-You may want to suggest a new feature or tell us about how something is not working in the manner you would expect it to.
-There are a number of ways to make your voice heard and we would love to hear from you.
+We are eager to enrich our discussions about `sunpy` and its affiliated packages with diverse voices and perspectives, including those of both users and developers.
+The SunPy Project is open source, built on open source, and we'd love to have you hang out in our community.
+Whether you have a suggestion for a new feature, or feedback about an aspect that's not functioning as anticipated, your input is important for the health of sunpy.
+There are several avenues for you to share your thoughts, and we genuinely look forward to hearing from you.
 
-We strongly recommend that your first port of call would be to our lovely [matrix channel].
-Here you can get in easily get in touch with developers or users for questions or support.
-This is the most lively part of the community!
+The ideal starting point is our [chat room], a vibrant community where hundreds of users and all the contributors to the SunPy Project gather.
+Here, you can find support and get answers to any questions you might have about sunpy, programming, or solar physics in general.
+If you prefer email, there is a [mailing list], you can also ask questions or get major announcements about SunPy.
+If you prefer a forum, there is a [discourse] for the wider OpenAstronomy community that has a dedicated section for sunpy.
 
-If you prefer email:
-
-- [The general mailing list] is a great place to start.
-  Here we answer questions about sunpy or send out major announcements.
-- If you have technical issue about the code or want advice on how to help sunpy, the [matrix channel] is another good place.
-  This is where you can find the nitty gritty nuts and bolts discussions about the SunPy codebase.
-
-Please note that these do not get a lot of traffic, so the matrix channel or [GitHub] might be better places to start.
-
-## Report Bugs
+## Reporting Issues
 
 If you run into unexpected behavior or run into a bug we urge you to please report it.
-All bugs are kept track of on our [issue tracker].
-You can add a bug report there or you can report it on [matrix channel] or an email to [the general mailing list].
-Ideally, we would like a short code example so we can reproduce the bug on our own machines.
+All bugs are kept track of on our [issue tracker] and please try to provide a minimal code example that reproduces the issue.
+This will make debugging and fixing the issue quicker.
 
-## Provide Code
+## Contributing Code and Documentation
 
-If you are interested in contributing fixes, code or documentation to sunpy please have a read of our [newcomers guide].
-This is the easiest entry point into our more in-depth [developer guide].
+If you're keen on contributing through coding or documentation, we highly recommend reading our [Newcomers Guide].
+This guide is designed to be straightforward and accessible, requiring no prior experience. It provides all the necessary information to get you set up and actively working on the SunPy codebase with ease."
 
-sunpy uses a distributed version control system called [git] and the code is hosted on [GitHub].
-To get started, create an account [on github] and fork sunpy then submit your changes via a pull request.
-If you are unfamiliar with this style of development, Astropy provide a sample [workflow] but you can also find lots of [tutorials] online.
-You can browse our [issue list] or our [feature list] to find something that you can tackle.
-Please leave a comment on the issue on [GitHub] and stop by the [matrix channel] to let people know what you are planning to work on.
+### Anti Imposter Syndrome Reassurance
 
-[matrix channel]: https://app.element.io/#/room/#sunpy:openastronomy.org
-[the general mailing list]: https://groups.google.com/forum/#!forum/sunpy
-[issue tracker]: https://github.com/sunpy/sunpy/issues
-[issue list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Good+First+Issue%22
-[feature list]: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Feature+Request%22
-[newcomers guide]: https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html
-[developer guide]: https://docs.sunpy.org/en/latest/dev_guide/
-[git]: https://git-scm.com
-[github]: https://github.com/sunpy/sunpy/
-[on github]: https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
-[workflow]: https://docs.astropy.org/en/stable/development/workflow/development_workflow.html#development-workflow
-[tutorials]: https://readwrite.com/understanding-github-a-journey-for-beginners-part-1
+Imposter syndrome disclaimer: We want your help. No, really.
+
+There may be a little voice inside your head that is telling you that you're not ready to be an open source contributor; that your skills aren't nearly good enough to contribute.
+What could you possibly offer a project like this one?
+
+We assure you - the little voice in your head is wrong.
+If you can write code at all, you can contribute code to open source.
+Contributing to open source projects is a fantastic way to advance one's coding skills.
+Writing perfect code isn't the measure of a good developer (that would disqualify all of us!); it's trying to create something, making mistakes, and learning from those mistakes.
+That's how we all improve, and we are happy to help others learn.
+
+Being an open source contributor doesn't just mean writing code, either.
+You can help out by writing documentation, tests, or even giving feedback about the project (and yes - that includes giving feedback about the contribution process).
+Some of these contributions may be the most valuable to the project as a whole, because you're coming to the project with fresh eyes, so you can see the errors and assumptions that seasoned contributors have glossed over.
+
+Note: This text was originally written by [Adrienne Lowe](https://github.com/adriennefriend) for a [PyCon talk](https://www.youtube.com/watch?v=6Uj746j9Heo), and was adapted based on its use in the README file for the [MetPy project](https://github.com/Unidata/MetPy).
+
+[chat room]: https://app.element.io/#/room/#sunpy:openastronomy.org
+[mailing list]: https://groups.google.com/forum/#!forum/sunpy
+[discourse]: https://community.openastronomy.org/
+[Newcomers Guide]: https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html
