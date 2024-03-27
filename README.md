@@ -11,3 +11,5 @@ Please use the https://github.com/sunpy/sunpy-project issue tracker to track thi
 ## Notes
 
 The pre-commit CI fails on the URL check since it lacks any network access.
+
+Please run the pre-commit locally before you submit a pull request.
