@@ -27,6 +27,9 @@
 - name: Effort Low
   color: "#d4c5f9"
   description: "Requires a small time investment."
+- name: Examples
+  color: "#fef2c0"
+  description: "Related to the Example Gallery."
 - name: Feature Request
   color: "#009800"
   description: "New feature wanted!"
@@ -47,6 +50,12 @@
 - name: Merge When CI Passes
   color: "#0e8a16"
   description: "Hit that merge button when it's all green!"
+- name: Minor Change
+  color: "#fad8c7"
+  description: "PR only needs one approval to merge."
+- name: Needs Adoption
+  color: "#e11d21"
+  description: "PRs that were abandoned but should be picked up again and merged in."
 - name: Needs Review
   color: "#2E143F"
   description: "Needs reviews before merge."
@@ -63,6 +72,9 @@
 - name: Package Novice
   color: "#207de5"
   description: "Requires little of knowledge of the package."
+- name: Performance
+  color: "#93D3C4"
+  description: "A label related to the memory or speed or other performance metrics of the code."
 # Priority
 - name: Priority High
   color: "#5319e7"
