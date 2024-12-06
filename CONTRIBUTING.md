@@ -23,6 +23,12 @@ This will make debugging and fixing the issue quicker.
 If you're keen on contributing through coding or documentation, we highly recommend reading our [Newcomers Guide].
 This guide is designed to be straightforward and accessible, requiring no prior experience. It provides all the necessary information to get you set up and actively working on the SunPy codebase with ease."
 
+### Restrictions on Generative AI Usage
+
+We expect authentic engagement in our community.
+Be wary of posting output from Large Language Models or similar generative AI as comments on GitHub or any other platform, as such comments tend to be formulaic and low quality content.
+If you use generative AI tools as an aid in developing code or documentation changes, ensure that you fully understand the proposed changes and can explain why they are the correct approach and an improvement to the current state.
+
 ### Anti Imposter Syndrome Reassurance
 
 Imposter syndrome disclaimer: We want your help. No, really.
