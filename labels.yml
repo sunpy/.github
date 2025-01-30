@@ -1,126 +1,126 @@
 - name: Bug
-  color: "#e11d21."
+  color: "#e11d21"
   aliases: [bug]
   description: "Probably a bug."
 - name: "Close (?)."
-  color: "#f9d0c4."
+  color: "#f9d0c4"
   description: "Potentially stale or out of date issues."
 - name:  Discussion
-  color: "#eaa1c1."
+  color: "#eaa1c1"
   description: "An issue opened for, or undergoing discussion."
   aliases: [discussion needed]
 - name: Documentation
-  color: "#0052cc."
+  color: "#0052cc"
   description: "Affects the documentation."
   aliases: [documentation]
 - name: Duplicate
-  color: "#cfd3d7."
+  color: "#cfd3d7"
   description: "This issue or pull request already exists."
   aliases: [duplicate]
 # Effort
 - name: Effort High
-  color: "#d4c5f9."
+  color: "#d4c5f9"
   description: "Requires a large time investment."
 - name: Effort Medium
-  color: "#d4c5f9."
+  color: "#d4c5f9"
   description: "Requires a moderate time investment."
 - name: Effort Low
-  color: "#d4c5f9."
+  color: "#d4c5f9"
   description: "Requires a small time investment."
 # End
 - name: Examples
-  color: "#fef2c0."
+  color: "#fef2c0"
   description: "Related to the Example Gallery."
 - name: Feature Request
-  color: "#009800."
+  color: "#009800"
   description: "New feature wanted."
   aliases: [enhancement]
 - name: Good First Issue
-  color: "#0d8387."
+  color: "#0d8387"
   description: "The best issues for new people to tackle."
   aliases: [good first issue]
 - name: Infrastructure
-  color: "#6eb1c9."
+  color: "#6eb1c9"
   description: "Issues or PRs that affect the CI or packaging."
 - name: Invalid
-  color: "#000000."
+  color: "#000000"
   description: "For issues and PRs which are not valid contributions."
 - name: Keep Open
-  color: "#ffffff."
+  color: "#ffffff"
   description: "A label to ward off stale bot."
 - name: Merge When CI Passes
-  color: "#0e8a16."
+  color: "#0e8a16"
   description: "Hit that merge button when it's all green."
 - name: Minor Change
-  color: "#fad8c7."
+  color: "#fad8c7"
   description: "PR only needs one approval to merge."
 - name: Needs Adoption
-  color: "#e11d21."
+  color: "#e11d21"
   description: "PRs that went stale but should be picked up again and completed."
 - name: Needs Review
-  color: "#2E143F."
+  color: "#2E143F"
   description: "Needs review(s) before merge."
 - name: No Changelog Entry Needed
-  color: "#e99695."
+  color: "#e99695"
   description: "Skip all changelog checks."
 # Expert
 - name: Package Expert
-  color: "#207de5."
+  color: "#207de5"
   description: "Requires technical knowledge of the package; This means little help."
 - name: Package Intermediate
-  color: "#207de5."
+  color: "#207de5"
   description: "Requires good technical knowledge of the package."
 - name: Package Novice
-  color: "#207de5."
+  color: "#207de5"
 # End
   description: "Requires little technical knowledge of the package."
 - name: Performance
-  color: "#93D3C4."
+  color: "#93D3C4"
   description: "A label related to the memory or speed or other performance metrics of the code."
 # Priority
 - name: Priority High
-  color: "#5319e7."
+  color: "#5319e7"
   description: "Rapid action required."
 - name: Priority Medium
-  color: "#5319e7."
+  color: "#5319e7"
   description: "Non-urgent action required."
 - name: Priority Low
-  color: "#5319e7."
+  color: "#5319e7"
   description: "Rapid action not required."
 # End
 - name: Question
-  color: "#d876e3."
+  color: "#d876e3"
   description: "For issues that are questions. "
   aliases: [question]
 # CI Control Labels
 - name: Run cron CI
-  color: "#ffffff."
+  color: "#ffffff"
   description: "Run cron CI on this PR."
 - name: Run publish
-  color: "#ffffff."
+  color: "#ffffff"
   description: "Run publish CI on this PR."
 - name: pre-commit.ci run
-  color: "#ffffff."
+  color: "#ffffff"
   description: "Automatically fix pre-commit issues on this PR."
 # End
 - name: Solar Physics Knowledge
-  color: "#b90ac9."
+  color: "#b90ac9"
   description: "This requires some understanding of solar physics."
 - name: Stale
-  color: "#ffffff."
+  color: "#ffffff"
   description: "The bot will close this PR after 6 months (if enabled on this repo)."
   aliases: [stale]
 - name: Still Needs Manual Backport
-  color: "#f97fa4."
+  color: "#f97fa4"
   description: "This PR needs manually backporting."
   aliases: [ManualBackport]
 - name: Tests
-  color: "#0052cc."
+  color: "#0052cc"
   description: "Affects tests in some measure."
 - name: Upstream Fix Required
-  color: "#f77960."
+  color: "#f77960"
   description: "A fix needs to go upstream to another package."
 - name: Wont Fix
-  color: "#009800."
+  color: "#009800"
   description: "This is something we intended and is not a bug."
   aliases: [wontfix]
