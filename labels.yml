@@ -66,7 +66,7 @@
 # Expert
 - name: Package Expert
   color: "#207de5"
-  description: "Requires technical knowledge of the package; This means little help."
+  description: "Requires deep technical knowledge of the package; this means little help from reviewers."
 - name: Package Intermediate
   color: "#207de5"
   description: "Requires good technical knowledge of the package."
