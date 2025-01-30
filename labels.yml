@@ -2,7 +2,7 @@
   color: "#e11d21"
   aliases: [bug]
   description: "Probably a bug."
-- name: "Close (?)."
+- name: "Close (?)"
   color: "#f9d0c4"
   description: "Potentially stale or out of date issues."
 - name:  Discussion
