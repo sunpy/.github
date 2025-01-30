@@ -72,8 +72,8 @@
   description: "Requires good technical knowledge of the package."
 - name: Package Novice
   color: "#207de5"
-# End
   description: "Requires little technical knowledge of the package."
+# End
 - name: Performance
   color: "#93D3C4"
   description: "A label related to the memory or speed or other performance metrics of the code."
