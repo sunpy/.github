@@ -102,6 +102,9 @@
 - name: pre-commit.ci run
   color: "#ffffff"
   description: "Automatically fix pre-commit issues on this PR."
+- name: Run benchmarks
+  color: "#ffffff"
+  description: "Run benchmarks on this PR."
 # End
 - name: Solar Physics Knowledge
   color: "#b90ac9"
