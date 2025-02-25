@@ -99,9 +99,10 @@
 - name: Run publish
   color: "#ffffff"
   description: "Run publish CI on this PR."
-- name: pre-commit.ci run
+- name: pre-commit.ci autofix
   color: "#ffffff"
   description: "Automatically fix pre-commit issues on this PR."
+  aliases: [pre-commit.ci run]
 - name: Run benchmarks
   color: "#ffffff"
   description: "Run benchmarks on this PR."
