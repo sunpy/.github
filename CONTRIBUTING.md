@@ -51,4 +51,5 @@ Note: This text was originally written by [Adrienne Lowe](https://github.com/adr
 [chat room]: https://app.element.io/#/room/#sunpy:openastronomy.org
 [mailing list]: https://groups.google.com/forum/#!forum/sunpy
 [discourse]: https://community.openastronomy.org/
+[issue tracker]: https://github.com/sunpy/sunpy/issues
 [Newcomers Guide]: https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html
