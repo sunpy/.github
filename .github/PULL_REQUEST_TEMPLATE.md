@@ -33,7 +33,8 @@ Please also include relevant motivation and context.
 ## AI Assistance Disclosure
 
 <!--
-To support transparency and sustainable collaboration, please indicate whether AI-assisted tools were used in preparing this pull request. 
+To support transparency and sustainable collaboration, please indicate whether AI-assisted tools were used in preparing this pull request.
+Failure to complete this checklist or removing this checklist from your pull request description may result in your pull request being automatically closed without a review.
 For further details see our documentation on the fair and appropriate [usage of AI](https://docs.sunpy.org/en/latest/dev_guide/contents/ai_usage.html).
 -->
 
