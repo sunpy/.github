@@ -1,0 +1,45 @@
+[tool.gilesbot]
+[tool.gilesbot.pull_requests]
+enabled = true
+
+[tool.gilesbot.org_vetting]
+enabled = true
+allowlist = "https://raw.githubusercontent.com/astropy/.github/main/contributor-allowlist.txt" (we need to make this for sunpy)
+message = """
+Hi 👋 and thank you for your contribution to SunPy!
+
+This pull request has been automatically closed as part of our new contributor process, but we may reopen it once you've followed the steps below.
+
+## Getting involved in the SunPy community
+
+We welcome contributors from all backgrounds who have an interest in SunPy and solar physics!
+
+Please join our [SunPy new contributors chat](https://matrix.to/#/#sunpy-new-contributors:openastronomy.org) on Element/Matrix and introduce yourself with a post that includes:
+
+
+- A brief introduction to yourself, including your background and what interests you about SunPy.
+- How the bug or missing feature affects your work, or why you think the change would be useful to SunPy's users.
+
+SunPy is a community-driven project that develops scientific software for solar physics research. We particularly want to encourage solar physicists, students, and others interested in the project to get involved, learn, and contribute.
+
+## AI-generated contributions
+
+Our [AI usage policy](https://docs.sunpy.org/en/latest/dev_guide/contents/ai_usage.html#ai-usage) permits AI-assisted contributions, provided contributors understand and take full responsibility for their submissions.
+
+However, we do not accept AI-generated contributions submitted simply for the sake of contributing, without a clear understanding of SunPy or a genuine need for the proposed change.
+
+In particular, we strongly discourage:
+- Unsolicited AI-generated PRs that do not address an identified need within SunPy.
+- Automated searches for bugs, minor fixes, or refactoring opportunities primarily intended to generate PRs.
+- Contributions where the author cannot explain the motivation, implementation, or benefit to SunPy's users.
+
+**Finding and fixing a bug does not automatically make a contribution valuable to the project.** Contributions should provide meaningful benefit to SunPy and its community, and that benefit should justify the maintainer time required to review and maintain them.
+
+**Technical correctness alone does not guarantee acceptance.**
+"""
+
+maintainer_preamble = """
+If you know this is an existing SunPy contributor, or the contributor has introduced themselves and the PR complies with our [AI policy](https://docs.sunpy.org/en/latest/dev_guide/contents/ai_usage.html), you may reopen the PR.
+
+Established contributors should be added to the allowlist so their future PRs are not automatically closed.
+"""
